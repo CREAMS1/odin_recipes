@@ -1,9 +1,26 @@
 
 * {
     box-sizing: border-box;
-    
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .title {
-    
+    background-color: cornflowerblue;
+    text-align: center;
+    font-size: xx-large;
+    padding: 20px;
+}
+
+.recipe-list {
+    background-color: lightblue;
+    padding: 20px;
+    margin: 0px 200px;
+    width: auto;
+    height: 900px;
+    font-size: 20px;
+}
+
+ul li {
+    margin: 10px;
 }
