@@ -3,17 +3,27 @@
     box-sizing: border-box;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
+    color: white;
 }
 
+body {
+    background-color: black;
+}
+
+
 .title {
-    background-color: cornflowerblue;
+    background-color: darkgray;
     text-align: center;
     font-size: xx-large;
     padding: 20px;
+    border-bottom: solid 20px;
+    border-color: white;
 }
 
 .recipe-list {
-    background-color: lightblue;
+    background-color: gray;
+    border-left: solid #303030 20px;
+    border-right: solid #303030 20px;
     padding: 20px;
     margin: 0px 200px;
     width: auto;
